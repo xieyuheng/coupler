@@ -4,7 +4,7 @@ Simple tools for doing [dependency injection through constructors](https://marti
 
 The main class of this package is called `Coupler`,
 because it can depend on everything,
-so everything do NOT need to depend on each other.
+so everything do **NOT** need to depend on each other.
 
 Thus a coupler should only be used at the **outmost parts of your application**,
 and often we should only use one coupler for one application.
